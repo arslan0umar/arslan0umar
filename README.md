@@ -132,7 +132,7 @@ Production desktop app for an industrial steel mill, replacing manual Excel reco
 </div>
 
 <div align="center">
-<img src="https://ghchart.rshah.org/00F7FF/arslan0umar" alt="GitHub Contribution Graph" />
+<img src="https://github.com/users/arslan0umar/contributions" alt="GitHub Contribution Graph" />
 </div>
 
 ---
