@@ -132,8 +132,43 @@ Production desktop app for an industrial steel mill, replacing manual Excel reco
 </div>
 
 <div align="center">
-<img src="https://ghchart.rshah.org/39d353/arslan0umar" alt="GitHub Contribution Graph" />
+<img src="https://raw.githubusercontent.com/arslan0umar/arslan0umar/output/github-contribution-grid-snake-dark.svg" alt="Snake animation eating my contributions" />
 </div>
+
+<!--
+  SNAKE SETUP (one-time, ~2 min):
+  1. In your arslan0umar/arslan0umar repo, create .github/workflows/snake.yml with:
+
+  name: Generate Snake
+  on:
+    schedule:
+      - cron: "0 0 * * *"
+    workflow_dispatch:
+    push:
+      branches: [ main ]
+  permissions:
+    contents: write
+  jobs:
+    generate:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: Platane/snk@v3
+          with:
+            github_user_name: arslan0umar
+            outputs: |
+              dist/github-contribution-grid-snake.svg
+              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        - uses: crazy-max/ghaction-github-pages@v4
+          with:
+            target_branch: output
+            build_dir: dist
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  2. Commit + push. It runs once immediately, then daily at midnight, and creates an
+     "output" branch with the generated SVG that the image tag above points to.
+-->
+
 
 ---
 
