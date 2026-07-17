@@ -123,12 +123,12 @@ Production desktop app for an industrial steel mill, replacing manual Excel reco
 ### 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=arslan0umar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arslan0umar&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=arslan0umar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=arslan0umar&layout=compact&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arslan0umar&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=arslan0umar&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
